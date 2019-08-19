@@ -284,7 +284,7 @@ function play(clickedId) {
   const bottomRight = board[8];
 
   // CHECKS ALL WINNING COMBINATIONS
-  if (topLeft !== undefined && topLeft === topCenter && topLeft === topRight) {
+  {
     alert(`${topLeft} is the winner`);
     return;
   }

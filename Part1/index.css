@@ -34,3 +34,13 @@
     text-align: center;
     font-size: 2em;
 }
+.section {
+    display: inline-block;
+    
+    justify-content: center;
+
+}
+button {
+    background-color: blue;
+    color: white;
+}
