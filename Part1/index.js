@@ -1,9 +1,6 @@
 console.log('burrito')
 
 let board = []
-function reset () {
-     board[0] = ''
-}
 
 function play(clickedId) {
     const playerSpan = document.getElementById('player')
@@ -69,7 +66,6 @@ function play(clickedId) {
     }
     if (boardFull === true) {
         alert("Cat's game, there is no winner :(")
-        reset();
     }
 }
 
